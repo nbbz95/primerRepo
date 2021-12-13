@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--estilos-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <section>
+    <!-- menu -->
+    <header>
+        <nav>
+            <div class="logo imagenDeLogo"></div>
+            <ol class="t">
+                <a href="../index.html"><li>Inicio</li></a>
+                <a href="integrantes.html"><li>Integrantes</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+                <a href="discografia.html"><li>Discografia</li></a>
+                <a href="historia.html"><li>Historia</li></a>
+            </ol>
+        </nav>
+    </header>
+    </section>
+        <article class="imagenPrincipal"></article>
+    <hr>
+    <h1 class="animate__animated animate__pulse"id="tituloPrincipal">Contacto</h1>
+    <hr>
+    
+    <section class="contacto" id="colorDeForm">
+    <form action="">
+        <fieldset>
+            <legend> Info personal </legend>
+            <label for="nombre"> Nombre y apellido: </label>
+            <input type="text" name="nombre" > <br>
+            <label for="correo"> Email: </label>
+            <input type="email"  name="correo"> <br>
+            <label for="clave"> Contraseña: </label>
+            <input type="password" name="clave"> <br>
+            <label for="comentario"> Comentarios: </label> <br>
+            <textarea name="comentario" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <h3>Selección</h3>
+            <h4>Genero</h4>
+            <div>Hombre</div>
+            <input type="radio" name="genero" value="varon">
+            <div>Mujer</div>
+            <input type="radio" name="genero" value="mujer">
+            <div>No binario</div>
+            <input type="radio" name="genero" value="nobinario">
+            <!--Menu desplegable-->
+
+            <h4>Pais de origen</h4>
+
+            <select name="paises">
+            <option value="">Paises</option>
+            <option value="Ar"> Argentina</option>
+            <option value="Cl"> Chile</option>
+            <option value="Bl"> Bolivia</option>
+            <option value="Pr"> Paraguay</option>
+            <option value="Ur"> Uruguay</option>
+            </select>
+            <!--CheckBox-->
+            <hr>
+            <div>Acepta terminos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1">
+            
+            
+        </fieldset>
+        <!--Botones-->
+        <h2>Validar</h2>
+        <input type="submit" value="Enviar"><!-- Enviar-->
+        <input type="reset" value="Cancelar">
+    </form>
+    </section>
+    <section>
+    <footer>
+        &COPY;2021 Diseñado por Nicolas Barbudez
+    </footer>
+    </section>
+</body>
+</html>

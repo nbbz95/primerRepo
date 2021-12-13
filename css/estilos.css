@@ -1,0 +1,147 @@
+/* RESETEO CSS */
+* /* selector global*/{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html /* raiz */{
+    font-size: 16px;
+}
+.menu {
+margin: 1rem;
+padding-top: 0,5rem;
+list-style: none;
+
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: rgb(224,223,223);
+    background: linear-gradient(180deg, rgba(224,223,223,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+ol, a li {
+    display: inline-block;
+    gap: 2rem;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    align-items: center;
+    margin-left: 210px;
+}
+
+ol, a li:hover {
+    color: rgb(255, 255, 255);
+}
+header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+body /* contenido */{
+
+    background-color: rgba(15, 0, 153, 0.336);
+    margin: 30px 20px 10px;
+    padding: 10px 20px 90px;
+    background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+}
+
+#tituloPrincipal {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Ultra', serif;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+.tituloSecundario {
+    border-color: 3c6e71;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+.videoInicial {
+    padding: 20px;
+    margin-left: 500px;
+}
+footer {
+    position: sticky;
+    bottom: 5px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: wheat;
+    border-radius: 5%;
+    width: 100%;
+
+}
+
+ol.t {
+    list-style-type: upper-roman;
+
+}
+
+table {
+    background: honeydew;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    border-style: inset;
+    background: gray;
+}
+td th {
+    color: white;
+    border-radius: 5px;
+}
+#colorDeForm {
+    background:honeydew;
+    opacity: 90%;
+}
+.contacto {
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: inline-block;
+    color: red;
+}
+
+.gridFotos {
+    display: grid;
+    grid-template-columns:1fr 1fr ;/* columnas */
+    grid-template-rows: 1fr 1fr ; /* filas*/
+    background-color: rgb(131, 97, 58);
+    text-align: center;
+    font-size: 1.25em;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+header {
+    grid-area: cabeza;
+    background-color: #90e0ee;
+}
+#productos {
+    grid-area: productos;
+    background-color: lightblue;
+}
+#servicios {
+    grid-area: servicios;
+    background-color: lightskyblue;
+}
+nav {
+    grid-area: menu;
+    background-color: rgb(226, 142, 249);
+}
+aside {
+    grid-area: messirve;
+    background-color: rgb(51, 51, 104);
+}
+footer {
+    grid-area: pie;
+    background-color: rgb(169, 113, 169);
+}
